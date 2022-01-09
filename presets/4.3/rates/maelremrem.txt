@@ -3,7 +3,7 @@
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: maelremrem, rates, freestyle
-#$ AUTHOR: Maelremrem
+#$ AUTHOR: CultureFPV
 #$ DESCRIPTION: Near identical default rates.
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
