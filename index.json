@@ -117,10 +117,9 @@
     "author": [
       "Betaflight",
       "ctzsnooze",
-      "David Zouari (DaD)",
+      "CultureFPV",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
-      "Maelremrem",
       "NemesisXB",
       "sugarK"
     ],
@@ -998,7 +997,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/dad_zouari.txt",
-      "hash": "bb7ffdb11a3e4ce195814f2b6b4a18f019f69a6bf623a58b12181eb035007a2e",
+      "hash": "de08e08b9461b69067fa92f4e3eb6406e534ff535fbf585c28cb5a8d2af9dc16",
       "options": [],
       "title": "David Zouari Freestyle 5inch rates",
       "firmware_version": [
@@ -1013,7 +1012,7 @@
         "rates",
         "freestyle"
       ],
-      "author": "David Zouari (DaD)",
+      "author": "CultureFPV",
       "description": [
         "David Zouari's rates."
       ],
@@ -1046,7 +1045,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/maelremrem.txt",
-      "hash": "4596f7a321ba3972ac6a1b757f7e88110c87ccaf7533ca9fa662ec68d3cf3b55",
+      "hash": "e0555349a34eb4dca408ccb205e6e694765f32e077b1133c546a27174a2c47b4",
       "options": [
         {
           "name": "Betaflight rates analogue",
@@ -1064,7 +1063,7 @@
         "rates",
         "freestyle"
       ],
-      "author": "Maelremrem",
+      "author": "CultureFPV",
       "description": [
         "Near identical default rates."
       ],
