@@ -126,7 +126,6 @@
     "keywords": [
       "150hz",
       "250hz",
-      "5\"",
       "500hz",
       "50hz",
       "actual",
@@ -146,8 +145,6 @@
       "clear",
       "control",
       "Crossfire",
-      "ctzsnooze",
-      "CTZsoonze",
       "dad",
       "david",
       "default",
@@ -165,7 +162,6 @@
       "filters",
       "freestyle",
       "freestyle_HD",
-      "freesytle",
       "frsky",
       "GPS",
       "gyro",
@@ -178,8 +174,6 @@
       "HV",
       "IRC",
       "jitter",
-      "karate",
-      "KarateBrot",
       "launch",
       "launch_mode",
       "leds",
@@ -224,7 +218,6 @@
       "some",
       "speedybee",
       "stats",
-      "suagrK",
       "sugarK",
       "switch",
       "tank solo",
@@ -291,32 +284,6 @@
       ],
       "discussion": ": https://github.com/betaflight/firmware-presets/pull/141/",
       "warning": "This preset changes PID loop rate to 3.2k. This is necessary for some BMI270 gyro boards. Please, don't change it back to anything higher than 4k unless you know what you are doing.",
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
-      "hash": "505a3cf9aff8fc6b861770d3bcafcb61431e2865f3fa10170f8c5cc044b5fea1",
-      "options": [],
-      "title": "ctzsnooze's race filter settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "race",
-        "filter",
-        "filters",
-        "ctzsnooze",
-        "RPM"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "ctzsnooze's standard race filter setup.",
-        "Requires RPM filtering and DShot telemetry!"
-      ],
       "include": [
         "presets/4.3/filters/defaults.txt"
       ]
@@ -655,42 +622,6 @@
         "Intended for worn, beaten up, or larger (10\" and above), builds.",
         "If motors remain hot despite strong filtering, it may not be a filtering problem.",
         "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/karate_array.txt",
-      "hash": "7d4913bf9839cc9bb055ab942a22c3c015a2f258e30633a07edcaaf98eb85df0",
-      "options": [],
-      "title": "the Karate array",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "karate",
-        "race",
-        "freesytle",
-        "suagrK",
-        "CTZsoonze",
-        "KarateBrot",
-        "5\""
-      ],
-      "author": "sugarK",
-      "description": [
-        "the Karate fitler array as developed by @CTZsoonze and @sugarK for 4.3 using @karateBrot's rpm cross fade code.",
-        "NOTE this needs bidirectional Dshot support and RPM filtering active to use. DO NOT ATEMPT TO USE WITH OUT RPM FILTERING!",
-        "This filtering array will work with most 5\" race and freesytle builds that have a solid airframe and motors in good condition.",
-        "Follow the usual process of hover testing and safely checking out your tune before using. USE AT YOUR OWN RISK."
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/51",
-      "include_warning": [
-        "misc/warnings/en/rpm_filters.txt"
       ],
       "include": [
         "presets/4.3/filters/defaults.txt"
