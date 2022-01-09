@@ -1,5 +1,5 @@
 #$ TITLE: Maelremrem Freestyle 5inch rates
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: maelremrem, rates, freestyle
