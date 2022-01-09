@@ -1,11 +1,10 @@
 #$ TITLE: Maelremrem Freestyle 5inch rates
-#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: maelremrem, rates, freestyle
 #$ AUTHOR: Maelremrem
 #$ DESCRIPTION: Near identical default rates.
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/100/
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
 #$ OPTION BEGIN (UNCHECKED): Betaflight rates analogue
