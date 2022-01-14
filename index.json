@@ -116,6 +116,7 @@
     ],
     "author": [
       "Betaflight",
+      "Ced Ric",
       "ctzsnooze",
       "CultureFPV",
       "Directory",
@@ -145,6 +146,7 @@
       "clear",
       "control",
       "Crossfire",
+      "culture fpv",
       "dad",
       "david",
       "default",
@@ -1973,6 +1975,33 @@
       "description": [
         "Check the tune parameters that you want to reset to defaults.",
         "Un-checked parameters will remain at current values."
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
+      "hash": "6cd4947626810a694758a967ff2cf0679c38717ef86ca7494b466b729444e858",
+      "options": [],
+      "title": "Tune Culture FPV Frame By Ced Ric",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default",
+        "culture fpv"
+      ],
+      "author": "Ced Ric",
+      "description": [
+        "Fonctionne uniquement sur BF 4.3 avec RPM Filter, appliquez le filtre 4.3 NORMAL RPM avant l'utilisation de ce tune",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters."
       ]
     },
     {

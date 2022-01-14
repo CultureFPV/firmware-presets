@@ -1,7 +1,7 @@
 #$ TITLE:  Tune Culture FPV Frame By Ced Ric
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: BETA
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
 #$ AUTHOR: Ced Ric
 #$ DESCRIPTION: Fonctionne uniquement sur BF 4.3 avec RPM Filter, appliquez le filtre 4.3 NORMAL RPM avant l'utilisation de ce tune
