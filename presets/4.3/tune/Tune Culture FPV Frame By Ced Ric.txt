@@ -4,7 +4,8 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
 #$ AUTHOR: Ced Ric
-#$ DESCRIPTION: Fonctionne uniquement sur BF 4.3 avec RPM Filter
+#$ DESCRIPTION: Fonctionne UNIQUEMENT sur BF 4.3 avec RPM FILTER
+#$ DESCRIPTION:
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.
 #$ DESCRIPTION: DOES NOT reset rates, rclink, rc_smoothing, and many other parameters. 
@@ -33,7 +34,7 @@ set motor_pwm_protocol = DSHOT600
 
 # -- PID Sliders --
 set dyn_idle_min_rpm = 30
-set simplified_master_multiplier = 140
+set simplified_master_multiplier = 120
 set simplified_i_gain = 70
 set simplified_pi_gain = 110
 set simplified_feedforward_gain = 120
