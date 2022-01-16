@@ -19,6 +19,18 @@
 # IF THE AUTHOR WANTS A NON-DEFAULT VALUE, THEIR TUNE MUST SET IT
 # BOTH CHECKED AND UNCHECKED OPTIONS CAN BE USED FOR THESE PARAMETERS
 
+#$ OPTION BEGIN (CHECKED): DSHOT300
+
+set motor_pwm_protocol = DSHOT300
+set pid_process_denom = 2
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DSHOT600
+
+set motor_pwm_protocol = DSHOT600
+#$ OPTION END
+
 # -- PID Sliders --
 set dyn_idle_min_rpm = 30
 set simplified_master_multiplier = 140

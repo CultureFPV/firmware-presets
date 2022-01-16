@@ -1583,8 +1583,17 @@
     },
     {
       "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "11c279bfafb3120cb408d19cba4a665f3fe3e45321eb7836888a29e039144fa4",
-      "options": [],
+      "hash": "d1daab4abff4ea5fd087ffc11707cac5ac245141a4ea409b751faf6d11b5ca32",
+      "options": [
+        {
+          "name": "DSHOT300",
+          "checked": true
+        },
+        {
+          "name": "DSHOT600",
+          "checked": false
+        }
+      ],
       "title": "Tune Culture FPV Frame By Ced Ric",
       "firmware_version": [
         "4.3"
