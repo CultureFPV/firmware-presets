@@ -1583,14 +1583,14 @@
     },
     {
       "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "d1daab4abff4ea5fd087ffc11707cac5ac245141a4ea409b751faf6d11b5ca32",
+      "hash": "af40641af52cb15ca701ab0c8a46548f023bb1d56b612c118e6444e8dd503934",
       "options": [
         {
-          "name": "DSHOT300",
+          "name": "DSHOT300 - Processeurs F4",
           "checked": true
         },
         {
-          "name": "DSHOT600",
+          "name": "DSHOT600 - Processeurs F7",
           "checked": false
         }
       ],
