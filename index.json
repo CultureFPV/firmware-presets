@@ -291,6 +291,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/filters/defaults.txt",
+      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
+      "options": [],
+      "title": "Default 4.3 Filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "filter",
+        "filters",
+        "reset"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets Filter settings to 4.3 defaults"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/filters/default_no_rpm_clean.txt",
       "hash": "a49b93320ce1ae4503a2e43061fd00b7fad70ad6d44acb4d97e040163eb72419",
       "options": [],
@@ -606,27 +627,6 @@
       ],
       "include": [
         "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
-      "options": [],
-      "title": "Default 4.3 Filter settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "filter",
-        "filters",
-        "reset"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets Filter settings to 4.3 defaults"
       ]
     },
     {
@@ -1114,60 +1114,6 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/30"
     },
     {
-      "fullPath": "presets/4.3/rc_link/Tracer_CFV2.txt",
-      "hash": "a3788f829dd086f1c3ce8fe5fffbb8d0e92f5a88fd0218784875c105c9a40990",
-      "options": [],
-      "title": "TBS Tracer CFV2",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
-        "250hz"
-      ],
-      "author": "sugarK",
-      "description": [
-        "setup fo the various TBS radio links via CRSF",
-        "WARNING: make ABSOLUTELY SURE that the Hardware > ADC Filter is un-checked! and both radio and the TX unit are all up to date with the latest EdgeTX, OpenTX or FreedomTX",
-        "Please use RC smoothing presets for flying style required. Note base settings are for racing, there is a check box at the end for freestyle.",
-        "There are 2 current types of Crossfire protocol, CFV2 and CFV3 this can be checked in your TBS lua."
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/30"
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/Tracer_CFV3.txt",
-      "hash": "1ba3f02c2eb1cf53941685088f37edd6549d4c9af606751ceec39c1def5a7ea0",
-      "options": [],
-      "title": "TBS Tracer CFV3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv3",
-        "250hz"
-      ],
-      "author": "sugarK",
-      "description": [
-        "setup for TBS Tacer CFV3",
-        "WARNING: make ABSOLUTELY SURE that the Hardware > ADC Filter is un-checked! and both radio and the TX unit are all up to date with the latest EdgeTX, OpenTX or FreedomTX",
-        "Please use RC smoothing presets for flying style required. Note base settings are for racing, there is a check box at the end for freestyle.",
-        "There are 2 current types of Crossfire protocol, CFV2 and CFV3 this can be checked in your TBS lua."
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/30"
-    },
-    {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
       "hash": "44965114019d72a94d515080ffbe70f9e5c10c7713cef04db1d81a4df4014d16",
       "options": [],
@@ -1418,6 +1364,60 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rc_link/Tracer_CFV2.txt",
+      "hash": "a3788f829dd086f1c3ce8fe5fffbb8d0e92f5a88fd0218784875c105c9a40990",
+      "options": [],
+      "title": "TBS Tracer CFV2",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rc link",
+        "tracer",
+        "TBS",
+        "cfv2",
+        "250hz"
+      ],
+      "author": "sugarK",
+      "description": [
+        "setup fo the various TBS radio links via CRSF",
+        "WARNING: make ABSOLUTELY SURE that the Hardware > ADC Filter is un-checked! and both radio and the TX unit are all up to date with the latest EdgeTX, OpenTX or FreedomTX",
+        "Please use RC smoothing presets for flying style required. Note base settings are for racing, there is a check box at the end for freestyle.",
+        "There are 2 current types of Crossfire protocol, CFV2 and CFV3 this can be checked in your TBS lua."
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/30"
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/Tracer_CFV3.txt",
+      "hash": "1ba3f02c2eb1cf53941685088f37edd6549d4c9af606751ceec39c1def5a7ea0",
+      "options": [],
+      "title": "TBS Tracer CFV3",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rc link",
+        "tracer",
+        "TBS",
+        "cfv3",
+        "250hz"
+      ],
+      "author": "sugarK",
+      "description": [
+        "setup for TBS Tacer CFV3",
+        "WARNING: make ABSOLUTELY SURE that the Hardware > ADC Filter is un-checked! and both radio and the TX unit are all up to date with the latest EdgeTX, OpenTX or FreedomTX",
+        "Please use RC smoothing presets for flying style required. Note base settings are for racing, there is a check box at the end for freestyle.",
+        "There are 2 current types of Crossfire protocol, CFV2 and CFV3 this can be checked in your TBS lua."
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/30"
+    },
+    {
       "fullPath": "presets/4.3/rc_smoothing/cinematic.txt",
       "hash": "214a5b0d6b79dd198239e7875221402904f728986c5938eb6d260f8bca4c45a1",
       "options": [
@@ -1579,50 +1579,6 @@
         "Uses automatic cutoff adjustment that will optimise the cutoff to the link frequency at arming. As a result, faster RC links will feel more responsive.",
         "If sticks are too sensitive, increase the auto smoothing factors in the CLI.",
         "Note: If motors feel warmer than usual after applying this preset, return the auto RC smoothing values back to default of 30."
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "d9c0dfaeaa70b98580f1a651d9e8a012cce06b2ca2adaf23678a04aab78261a1",
-      "options": [
-        {
-          "name": "DSHOT300",
-          "checked": true
-        },
-        {
-          "name": "DSHOT600",
-          "checked": false
-        }
-      ],
-      "title": "Tune Culture FPV Frame By Ced Ric",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "tune",
-        "pid",
-        "basic",
-        "default",
-        "culture fpv"
-      ],
-      "author": "Ced Ric",
-      "description": [
-        "Fonctionne uniquement sur BF 4.3 avec RPM Filter",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.",
-        "DOES NOT reset rates, rclink, rc_smoothing, and many other parameters."
-      ],
-      "include_warning": [
-        "misc/warnings/en/rpm_filters.txt"
-      ],
-      "include": [
-        "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/defaults.txt",
-        "presets/4.3/filters/default_rpm_normal.txt"
       ]
     },
     {
@@ -2022,6 +1978,140 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
+      "hash": "88c3faa4201c6fb51dc2b753c7366374a0e6a1f1824d8530b2736af427ea9b39",
+      "options": [
+        {
+          "name": "DSHOT300",
+          "checked": true
+        },
+        {
+          "name": "DSHOT600",
+          "checked": false
+        }
+      ],
+      "title": "Tune Culture FPV Frame By Ced Ric",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default",
+        "culture fpv"
+      ],
+      "author": "Ced Ric",
+      "description": [
+        "Fonctionne UNIQUEMENT sur BF 4.3 avec RPM FILTER",
+        "",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.",
+        "DOES NOT reset rates, rclink, rc_smoothing, and many other parameters."
+      ],
+      "include_warning": [
+        "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt",
+        "presets/4.3/filters/default_rpm_normal.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/defaults.txt",
+      "hash": "f771542d93f15f993d39d97f9004ede104ba7dfebff45f68863aa25f30275388",
+      "options": [],
+      "title": "Default 4.3 VTX settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets VTx settings and table back to 4.3 Defaults",
+        "Only the checked settings will be reset"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
+      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
+      "options": [],
+      "title": "Default 4.3 VTX table settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx",
+        "vtxtable"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets only the VTX table back to 4.3 Defaults",
+        "Only the checked settings will be reset"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/diatone_mamba_ultra_1000.txt",
+      "hash": "63f36e059b1991b90c79eecd7df8fb5a330aba52e04166faab51d712f9dbdcf0",
+      "options": [
+        {
+          "name": "NO HAM",
+          "checked": false
+        },
+        {
+          "name": "HAM",
+          "checked": true
+        }
+      ],
+      "title": "Diatone Mamba Ultra 1000 VTX Tables",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "vtxtable",
+        "diatone",
+        "mamba",
+        "ultra",
+        "ultra 1000"
+      ],
+      "author": "NemesisXB",
+      "description": [
+        "VTX tables for the Diatone Mamba Ultra 1000. (IRC Tramp)",
+        "Select the the HAM option if you have a HAM license or the NO HAM if you do not.",
+        "EU users select the NO HAM option."
+      ],
+      "disclaimer": "Only select one option. All previous VTX Table settings will be reset.",
+      "include_disclaimer": [
+        "misc/disclaimer/en/vtxtable.txt"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/107",
+      "include": [
+        "presets/4.3/vtx/defaults_vtx_tables.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/vtx/HDZero_race2.txt",
       "hash": "0f0b8f7a8bfe4c48fe1897e58c3de4977a45550b4316aa856be00ffe97e0061a",
       "options": [
@@ -2080,6 +2170,133 @@
       "include": [
         "presets/4.3/vtx/defaults_vtx_tables.txt"
       ],
+      "include_disclaimer": [
+        "misc/disclaimer/en/vtxtable.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/rush_sa2.1_vtx_tables.txt",
+      "hash": "22aadeaaf187206e8e33fe426586de11dcfb1ea0ef3e56850ff9aabd37078b14",
+      "options": [
+        {
+          "name": "48CH",
+          "checked": false
+        },
+        {
+          "name": "Tank Ultimate Plus/Mini/II",
+          "checked": true
+        },
+        {
+          "name": "Tiny Tank",
+          "checked": false
+        },
+        {
+          "name": "Tank Racing",
+          "checked": false
+        },
+        {
+          "name": "Tank Solo",
+          "checked": false
+        }
+      ],
+      "title": "Rush Tiny Tank, Tank Racing, Tank Ultimate Plus/Mini/II, and Tank Solo VTX tables",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "rush tank",
+        "rush",
+        "rushfpv",
+        "tank ultimate",
+        "tank solo",
+        "tiny tank"
+      ],
+      "author": "Directory",
+      "description": [
+        "VTX tables for the Rush Tiny Tank, Rush Tank Racing, Rush Tank Ultimate Plus, Rush Tank Ultimate II, and the Rush Tank Solo.",
+        "Select in the options which model your particular rush VTX is. If it is not listed below it may not work because these VTX tables are meant for SA2.1 only. Older Rush VTX's (like the original tank ultimate) use an older SmartAudio protocol such as v1.1. These tables are by default the 37CH version for the US. Select 48CH to unlock more frequencies."
+      ],
+      "disclaimer": "Only select one VTX model. All previous VTX settings will be reset. Some frequencies in BAND E have been replaced for the non 48CH version.",
+      "include_disclaimer": [
+        "misc/disclaimer/en/vtxtable.txt"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/78",
+      "include": [
+        "presets/4.3/vtx/defaults_vtx_tables.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/speedybee_tx800.txt",
+      "hash": "23b289a0b51770f8f6c0ba648ac0d7cc6685edf7216cb13041740a56c8f44bbf",
+      "options": [
+        {
+          "name": "EU",
+          "checked": false
+        },
+        {
+          "name": "US",
+          "checked": true
+        }
+      ],
+      "title": "SpeedyBee TX800 VTX Tables",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "speedybee",
+        "tx800"
+      ],
+      "author": "NemesisXB",
+      "description": [
+        "VTX tables for the SpeedyBee TX800.",
+        "Select the regulatory domain in the options (EU or US)."
+      ],
+      "disclaimer": "Only select one regulatory option. All previous VTX Table settings will be reset.",
+      "include_disclaimer": [
+        "misc/disclaimer/en/vtxtable.txt"
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/105",
+      "include": [
+        "presets/4.3/vtx/defaults_vtx_tables.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/tramp_nano_and_HV.txt",
+      "hash": "0a496b6215aae4a72cbe0c1c1a3bc5d225609ebf25318c428abd6ad383e9bcfe",
+      "options": [],
+      "title": "IRC Tramp Nano and HV",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "IRC",
+        "tramp",
+        "HV",
+        "nano"
+      ],
+      "author": "sugarK",
+      "description": [
+        "VTX table for Rush Tank 30x30, Mini and Ultimate Plus. Note this table is as provided by the manufacture.",
+        "The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.",
+        "----------",
+        "Using the VTX tables as provided may be in breach of your local RF laws. It is up to the end user to research and comply with local regulations and in using these presets the user assumes all liability associated with breaching local regulations."
+      ],
+      "discussion": "https://github.com/betaflight/firmware-presets/pull/31",
       "include_disclaimer": [
         "misc/disclaimer/en/vtxtable.txt"
       ]
@@ -2296,222 +2513,6 @@
       "author": "sugarK",
       "description": [
         "VTBS Unify Pro Nano (Not Pro32 Nano) SA 2.0 lite (requires 3.3V level and soft or hardware pull low). See TBS website for details. Note this table is as provided by the manufacture.",
-        "The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.",
-        "----------",
-        "Using the VTX tables as provided may be in breach of your local RF laws. It is up to the end user to research and comply with local regulations and in using these presets the user assumes all liability associated with breaching local regulations."
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/31",
-      "include_disclaimer": [
-        "misc/disclaimer/en/vtxtable.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "f771542d93f15f993d39d97f9004ede104ba7dfebff45f68863aa25f30275388",
-      "options": [],
-      "title": "Default 4.3 VTX settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets VTx settings and table back to 4.3 Defaults",
-        "Only the checked settings will be reset"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
-      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
-      "options": [],
-      "title": "Default 4.3 VTX table settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx",
-        "vtxtable"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets only the VTX table back to 4.3 Defaults",
-        "Only the checked settings will be reset"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/diatone_mamba_ultra_1000.txt",
-      "hash": "63f36e059b1991b90c79eecd7df8fb5a330aba52e04166faab51d712f9dbdcf0",
-      "options": [
-        {
-          "name": "NO HAM",
-          "checked": false
-        },
-        {
-          "name": "HAM",
-          "checked": true
-        }
-      ],
-      "title": "Diatone Mamba Ultra 1000 VTX Tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "vtxtable",
-        "diatone",
-        "mamba",
-        "ultra",
-        "ultra 1000"
-      ],
-      "author": "NemesisXB",
-      "description": [
-        "VTX tables for the Diatone Mamba Ultra 1000. (IRC Tramp)",
-        "Select the the HAM option if you have a HAM license or the NO HAM if you do not.",
-        "EU users select the NO HAM option."
-      ],
-      "disclaimer": "Only select one option. All previous VTX Table settings will be reset.",
-      "include_disclaimer": [
-        "misc/disclaimer/en/vtxtable.txt"
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/107",
-      "include": [
-        "presets/4.3/vtx/defaults_vtx_tables.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/rush_sa2.1_vtx_tables.txt",
-      "hash": "22aadeaaf187206e8e33fe426586de11dcfb1ea0ef3e56850ff9aabd37078b14",
-      "options": [
-        {
-          "name": "48CH",
-          "checked": false
-        },
-        {
-          "name": "Tank Ultimate Plus/Mini/II",
-          "checked": true
-        },
-        {
-          "name": "Tiny Tank",
-          "checked": false
-        },
-        {
-          "name": "Tank Racing",
-          "checked": false
-        },
-        {
-          "name": "Tank Solo",
-          "checked": false
-        }
-      ],
-      "title": "Rush Tiny Tank, Tank Racing, Tank Ultimate Plus/Mini/II, and Tank Solo VTX tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "rush tank",
-        "rush",
-        "rushfpv",
-        "tank ultimate",
-        "tank solo",
-        "tiny tank"
-      ],
-      "author": "Directory",
-      "description": [
-        "VTX tables for the Rush Tiny Tank, Rush Tank Racing, Rush Tank Ultimate Plus, Rush Tank Ultimate II, and the Rush Tank Solo.",
-        "Select in the options which model your particular rush VTX is. If it is not listed below it may not work because these VTX tables are meant for SA2.1 only. Older Rush VTX's (like the original tank ultimate) use an older SmartAudio protocol such as v1.1. These tables are by default the 37CH version for the US. Select 48CH to unlock more frequencies."
-      ],
-      "disclaimer": "Only select one VTX model. All previous VTX settings will be reset. Some frequencies in BAND E have been replaced for the non 48CH version.",
-      "include_disclaimer": [
-        "misc/disclaimer/en/vtxtable.txt"
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/78",
-      "include": [
-        "presets/4.3/vtx/defaults_vtx_tables.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/speedybee_tx800.txt",
-      "hash": "23b289a0b51770f8f6c0ba648ac0d7cc6685edf7216cb13041740a56c8f44bbf",
-      "options": [
-        {
-          "name": "EU",
-          "checked": false
-        },
-        {
-          "name": "US",
-          "checked": true
-        }
-      ],
-      "title": "SpeedyBee TX800 VTX Tables",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "speedybee",
-        "tx800"
-      ],
-      "author": "NemesisXB",
-      "description": [
-        "VTX tables for the SpeedyBee TX800.",
-        "Select the regulatory domain in the options (EU or US)."
-      ],
-      "disclaimer": "Only select one regulatory option. All previous VTX Table settings will be reset.",
-      "include_disclaimer": [
-        "misc/disclaimer/en/vtxtable.txt"
-      ],
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/105",
-      "include": [
-        "presets/4.3/vtx/defaults_vtx_tables.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/vtx/tramp_nano_and_HV.txt",
-      "hash": "0a496b6215aae4a72cbe0c1c1a3bc5d225609ebf25318c428abd6ad383e9bcfe",
-      "options": [],
-      "title": "IRC Tramp Nano and HV",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "vtx table",
-        "IRC",
-        "tramp",
-        "HV",
-        "nano"
-      ],
-      "author": "sugarK",
-      "description": [
-        "VTX table for Rush Tank 30x30, Mini and Ultimate Plus. Note this table is as provided by the manufacture.",
         "The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.",
         "----------",
         "Using the VTX tables as provided may be in breach of your local RF laws. It is up to the end user to research and comply with local regulations and in using these presets the user assumes all liability associated with breaching local regulations."
