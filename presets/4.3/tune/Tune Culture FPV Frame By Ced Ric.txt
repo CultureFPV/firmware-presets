@@ -4,11 +4,14 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
 #$ AUTHOR: Ced Ric
-#$ DESCRIPTION: Fonctionne uniquement sur BF 4.3 avec RPM Filter, appliquez le filtre 4.3 NORMAL RPM avant l'utilisation de ce tune
+#$ DESCRIPTION: Fonctionne uniquement sur BF 4.3 avec RPM Filter
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.
-#$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
-
+#$ DESCRIPTION: DOES NOT reset rates, rclink, rc_smoothing, and many other parameters. 
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
 
 # THE FOLLOWING PARAMETERS ARE CONTROLLED
 # ALL WILL BE RESET TO DEFAULTS WHEN THIS DEFAULT IS RUN
