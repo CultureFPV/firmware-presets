@@ -1979,7 +1979,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "88c3faa4201c6fb51dc2b753c7366374a0e6a1f1824d8530b2736af427ea9b39",
+      "hash": "e2cdab3e3ab0499548a470f2a4d5be5b5eb3e01ecf4e0555cb58323468a1eb91",
       "options": [
         {
           "name": "DSHOT300",
@@ -2007,11 +2007,23 @@
       ],
       "author": "Ced Ric",
       "description": [
-        "Fonctionne UNIQUEMENT sur BF 4.3 avec RPM FILTER",
+        "Ce preset utilisant le filtre RPM, assurez-vous d'avoir vos firmwares ESC compatibles \"Bi-Directional DSHOT\":",
+        "- BLHeli_S: JESC, BlueJay, ou BLHeli-M JazzMaverick.",
+        "- BLHeli32: 32.7.",
+        "",
+        "Option: DSHOT300 pour processeur F4xx, ou DSHOT600 pour processeur F7xx.",
+        "",
+        "Appliquez ensuite le preset RCLink, adapté à votre émetteur radio (TX),",
+        "puis RC_Smoothing suivant votre préférence / style.",
+        "",
+        "Effectuez un vol de 20sec stationnaire pour vérifier la température et sons des moteurs. Si OK, faites un test réel et vérifier le comportement global.",
+        "Activez le \"Mode Expert\" dans le configurateur BETAFLIGHT et allez dans l'onglet PID, menu Profil PID:",
+        "Adaptez le curseur \"Multiplicateur maître\" par cran de 0.1, (Activer le mode EXPERT) si besoin pour améliorer celui-ci,",
+        "toujours en vérifiant la température et sons des moteurs.",
         "",
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.",
-        "DOES NOT reset rates, rclink, rc_smoothing, and many other parameters."
+        "DOES NOT reset rates, and many other parameters."
       ],
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
