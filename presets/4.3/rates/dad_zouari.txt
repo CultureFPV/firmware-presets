@@ -3,7 +3,7 @@
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: dad, david, zouari, rates, freestyle
-#$ AUTHOR: David Zouari (DaD)
+#$ AUTHOR: CultureFPV
 #$ DESCRIPTION: David Zouari's rates.
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
@@ -17,4 +17,3 @@ set yaw_expo = 20
 set roll_srate = 74
 set pitch_srate = 74
 set yaw_srate = 69
-#$ OPTION END
