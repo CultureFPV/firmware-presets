@@ -14,17 +14,17 @@
 #$ DESCRIPTION: puis RC_Smoothing suivant votre préférence / style.
 #$ DESCRIPTION:
 #$ DESCRIPTION: Effectuez un vol de 20sec stationnaire pour vérifier la température et sons des moteurs. Si OK, faites un test réel et vérifier le comportement global.
-#$ DESCRIPTION: Activez le "Mode Expert" dans le configurateur BETAFLIGHT et allez dans l'onglet PID, menu Profil PID:
-#$ DESCRIPTION: Adaptez le curseur "Multiplicateur maître" par cran de 0.1, (Activer le mode EXPERT) si besoin pour améliorer celui-ci,
-#$ DESCRIPTION: toujours en vérifiant la température et sons des moteurs.
 #$ DESCRIPTION:
-#$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
-#$ DESCRIPTION: WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.
-#$ DESCRIPTION: DOES NOT reset rates, and many other parameters. 
-#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ DESCRIPTION: RPM filtering is STRONGLY Recommended!
+#$ DESCRIPTION:
+#$ DESCRIPTION: Choose ONE of the three FILTER options from the pop-up above!
+#$ DESCRIPTION:
+#$ DESCRIPTION: Choose your link speed!
+#$ DESCRIPTION:
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
-#$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
 
 # THE FOLLOWING PARAMETERS ARE CONTROLLED
 # ALL WILL BE RESET TO DEFAULTS WHEN THIS DEFAULT IS RUN
@@ -32,17 +32,8 @@
 # IF THE AUTHOR WANTS A NON-DEFAULT VALUE, THEIR TUNE MUST SET IT
 # BOTH CHECKED AND UNCHECKED OPTIONS CAN BE USED FOR THESE PARAMETERS
 
-#$ OPTION BEGIN (CHECKED): DSHOT300
-
-set motor_pwm_protocol = DSHOT300
-set pid_process_denom = 2
-
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DSHOT600
-
-set motor_pwm_protocol = DSHOT600
-#$ OPTION END
+# -- Filters --
+#$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
 
 # -- PID Sliders --
 set dyn_idle_min_rpm = 30
@@ -52,4 +43,44 @@ set simplified_pi_gain = 110
 set simplified_feedforward_gain = 120
 set simplified_pitch_d_gain = 115
 set simplified_pitch_pi_gain = 105
+
+# -- Dynamic idle ON at 3000 rpm --
+set dyn_idle_min_rpm = 30
+
+# ------ OPIONS GO BELOW THIS LINE ------
+
+#$ OPTION_GROUP BEGIN: Choose your DSHOT Protocol!
+
+#$ OPTION BEGIN (UNCHECKED): DSHOT300
+set motor_pwm_protocol = DSHOT300
+set pid_process_denom = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DSHOT600
+set motor_pwm_protocol = DSHOT600
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+# -- Fast Rx Link Options --
+
+#$ OPTION_GROUP BEGIN: Choose your RC link speed!
+
+#$ OPTION BEGIN (UNCHECKED): 150Hz or less
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 250Hz
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 40
+set feedforward_jitter_factor = 6
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 500Hz
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 simplified_tuning apply
