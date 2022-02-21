@@ -1,7 +1,7 @@
 #$ TITLE: David Zouari Freestyle 5inch rates
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: dad, david, zouari, rates, freestyle
 #$ AUTHOR: CultureFPV
 #$ DESCRIPTION: David Zouari's rates.
