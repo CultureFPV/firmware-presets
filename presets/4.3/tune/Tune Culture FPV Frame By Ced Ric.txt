@@ -43,22 +43,11 @@ set dyn_idle_min_rpm = 30
 
 # ------ OPIONS GO BELOW THIS LINE ------
 
-#$ OPTION_GROUP BEGIN: Choose your DSHOT Protocol!
+#$ OPTION_GROUP BEGIN: Choose one DSHOT Protocol ONLY!
 
 #$ OPTION BEGIN (UNCHECKED): DSHOT300
 set motor_pwm_protocol = DSHOT300
 set pid_process_denom = 2
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DSHOT600
-set motor_pwm_protocol = DSHOT600
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: Choose your RCLink Speed!
-#$ OPTION BEGIN (UNCHECKED): TBS Crossfire
-#$ INCLUDE: presets/4.3/rc_link/TBS_freestyle.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DSHOT600
