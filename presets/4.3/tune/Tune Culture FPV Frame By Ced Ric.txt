@@ -15,12 +15,6 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: Effectuez un vol de 20sec stationnaire pour vérifier la température et sons des moteurs. Si OK, faites un test réel et vérifier le comportement global.
 #$ DESCRIPTION:
-#$ DESCRIPTION: RPM filtering is STRONGLY Recommended!
-#$ DESCRIPTION:
-#$ DESCRIPTION: Choose ONE of the three FILTER options from the pop-up above!
-#$ DESCRIPTION:
-#$ DESCRIPTION: Choose your link speed!
-#$ DESCRIPTION:
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ INCLUDE: presets/4.3/tune/defaults.txt
@@ -58,27 +52,6 @@ set pid_process_denom = 2
 
 #$ OPTION BEGIN (UNCHECKED): DSHOT600
 set motor_pwm_protocol = DSHOT600
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-# -- Fast Rx Link Options --
-
-#$ OPTION_GROUP BEGIN: Choose your RC link speed!
-
-#$ OPTION BEGIN (UNCHECKED): 150Hz or less
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 250Hz
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 40
-set feedforward_jitter_factor = 6
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 500Hz
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 65
-set feedforward_jitter_factor = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END
