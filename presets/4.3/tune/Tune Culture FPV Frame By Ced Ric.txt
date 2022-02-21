@@ -58,7 +58,7 @@ set motor_pwm_protocol = DSHOT600
 
 #$ OPTION_GROUP BEGIN: Choose your RCLink Speed!
 #$ OPTION BEGIN (UNCHECKED): TBS Crossfire
-#$ INCLUDE: presets/4.3/rc_link/TBS_freestyle
+#$ INCLUDE: presets/4.3/rc_link/TBS_freestyle.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DSHOT600
