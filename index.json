@@ -148,9 +148,7 @@
       "CultureFPV",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
-      "Feisar",
       "FPVian",
-      "Garban",
       "Jye Smith",
       "NemesisXB",
       "Sjoer van der Ploeg",
@@ -169,7 +167,6 @@
       "65mm",
       "666Hz",
       "acro",
-      "Acrobaix",
       "actual",
       "adjustments",
       "aggressive",
@@ -194,7 +191,6 @@
       "culture fpv",
       "dad",
       "david",
-      "DDC",
       "default",
       "defaults",
       "diatone",
@@ -209,7 +205,6 @@
       "expert",
       "express",
       "feedforward",
-      "feisar",
       "ff",
       "filter",
       "filtering",
@@ -218,7 +213,6 @@
       "freestyle",
       "freestyle_HD",
       "frsky",
-      "Garban",
       "ghost",
       "GHST",
       "GPS",
@@ -794,50 +788,14 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/Feisar_freestyle.txt",
-      "hash": "e5ecd4c804d9c099c7c8b99c386e484d8bffe32fc748e4ecd55d17e74297f5c1",
-      "title": "Feisar freestyle rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rates",
-        "betaflight",
-        "feisar"
-      ],
-      "author": "Feisar",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.3/rates/Garban_race.txt",
-      "hash": "38458536a284eccd15f779595d9bb18b833ac5b4a6bd2787f0ee51fb88f490b2",
-      "title": "Garban Official race rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "racing",
-        "rates",
-        "DDC",
-        "Acrobaix",
-        "Garban"
-      ],
-      "author": "Garban",
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/4.3/rates/dad_zouari.txt",
-      "hash": "de08e08b9461b69067fa92f4e3eb6406e534ff535fbf585c28cb5a8d2af9dc16",
+      "hash": "a758a1172a8becb207c168f33784d61b0c080c8ec5786068251e0b1c6bc72bfb",
       "title": "David Zouari Freestyle 5inch rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "dad",
         "david",
@@ -867,13 +825,13 @@
     },
     {
       "fullPath": "presets/4.3/rates/maelremrem.txt",
-      "hash": "e0555349a34eb4dca408ccb205e6e694765f32e077b1133c546a27174a2c47b4",
+      "hash": "63256963bc524b56789c62110793e07e577e15176ed71eb9411772dd07d3bf3b",
       "title": "Maelremrem Freestyle 5inch rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "maelremrem",
         "rates",
