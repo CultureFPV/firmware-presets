@@ -1,0 +1,59 @@
+#$ TITLE:  Tune Culture FPV Frame By Ced Ric
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
+#$ AUTHOR: Ced Ric
+#$ DESCRIPTION: Ce preset utilisant le filtre RPM, assurez-vous d'avoir vos firmwares ESC compatibles "Bi-Directional DSHOT":
+#$ DESCRIPTION: - BLHeli_S: JESC, BlueJay, ou BLHeli-M JazzMaverick.
+#$ DESCRIPTION: - BLHeli32: 32.7.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Option: DSHOT300 pour processeur F4xx, ou DSHOT600 pour processeur F7xx.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Appliquez ensuite le preset RCLink, adapté à votre émetteur radio (TX),
+#$ DESCRIPTION: puis RC_Smoothing suivant votre préférence / style.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Effectuez un vol de 20sec stationnaire pour vérifier la température et sons des moteurs. Si OK, faites un test réel et vérifier le comportement global.
+#$ DESCRIPTION:
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# THE FOLLOWING PARAMETERS ARE CONTROLLED
+# ALL WILL BE RESET TO DEFAULTS WHEN THIS DEFAULT IS RUN
+# ALL USER PREFERENCES FOR THESE VALUES WILL BE OVER-WRITTEN
+# IF THE AUTHOR WANTS A NON-DEFAULT VALUE, THEIR TUNE MUST SET IT
+# BOTH CHECKED AND UNCHECKED OPTIONS CAN BE USED FOR THESE PARAMETERS
+
+# -- Filters --
+#$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
+
+# -- PID Sliders --
+set dyn_idle_min_rpm = 30
+set simplified_master_multiplier = 120
+set simplified_i_gain = 70
+set simplified_pi_gain = 110
+set simplified_feedforward_gain = 120
+set simplified_pitch_d_gain = 115
+set simplified_pitch_pi_gain = 105
+
+# -- Dynamic idle ON at 3000 rpm --
+set dyn_idle_min_rpm = 30
+
+# ------ OPIONS GO BELOW THIS LINE ------
+
+#$ OPTION_GROUP BEGIN: Choose one DSHOT Protocol ONLY!
+
+#$ OPTION BEGIN (UNCHECKED): DSHOT300
+set motor_pwm_protocol = DSHOT300
+set pid_process_denom = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DSHOT600
+set motor_pwm_protocol = DSHOT600
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+simplified_tuning apply
