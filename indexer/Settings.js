@@ -21,6 +21,7 @@ const PresetCategories = {
     VTX:            "VTX",
     LEDS:           "LEDS",
     MODES:          "MODES",
+    RC_SMOOTHING:   "RC_SMOOTHING",
     FILTERS:        "FILTERS",
     RC_LINK:        "RC_LINK",
     BNF:            "BNF",
