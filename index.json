@@ -38,7 +38,8 @@
       "WORDS_ARRAY": "WORDS_ARRAY",
       "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
       "PRESET_STATUS": "PRESET_STATUS",
-      "PRIORITY": "PRIORITY"
+      "PRIORITY": "PRIORITY",
+      "PARSER": "PARSER"
     },
     "OptionsDirectives": {
       "OPTION_DIRECTIVE": "option",
@@ -53,6 +54,10 @@
       "OFFICIAL",
       "COMMUNITY",
       "EXPERIMENTAL"
+    ],
+    "ParserEnum": [
+      "TEXT",
+      "MARKED"
     ],
     "presetsDir": "presets",
     "presetsFileEncoding": "utf-8",
@@ -120,6 +125,10 @@
       "force_options_review": {
         "type": "BOOLEAN",
         "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
       }
     }
   },
@@ -141,49 +150,92 @@
       "VTX"
     ],
     "author": [
+      "Alex Campbell (Chief)",
+      "Alex Vanover",
+      "AyyyKayyy - Anthony Knight",
       "Betaflight",
-      "Ced Ric",
+      "BMSThomas",
       "ctzsnooze",
-      "CultureFPV",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
+      "Evan Turner (Headsup)",
+      "Feisar",
+      "FPVian",
+      "Garban",
+      "IllusionFpv",
       "Ivan Efimov (Limon)",
+      "Joshua Bardwell",
+      "Justice - Gary Kent",
       "Jye Smith",
+      "Mark Spatz (UAV Tech)",
+      "MinChan Kim",
       "NemesisXB",
       "Sjoer van der Ploeg",
       "sugarK",
+      "SupaflyFPV",
       "UAV Tech (Mark Spatz)"
     ],
     "keywords": [
+      "\\\\GAS",
       "111hz",
       "150Hz",
+      "15Hz",
+      "166Hz",
+      "1S",
       "20ms",
       "250Hz",
       "2ms",
+      "3 inch",
+      "3\"",
+      "3in",
+      "4in",
+      "4S",
+      "5 In",
+      "5 Inch",
+      "5\"",
       "500Hz",
       "50Hz",
+      "533",
+      "55Hz",
+      "5in",
+      "6 Inch",
+      "6\"",
+      "65mm",
       "666Hz",
+      "6S",
+      "7 Inch",
+      "7\"",
       "9ms",
+      "acro",
+      "Acrobaix",
       "actual",
       "adjustments",
       "aggressive",
+      "AlexFPV",
       "aux",
+      "AyyyKayyy",
+      "bando",
+      "bardwell",
+      "basher",
       "basic",
       "betaflight",
       "blackbox",
       "BMI270",
+      "BMSThomas",
+      "brushless",
       "camera",
       "camera_control",
-      "cfv2",
+      "Cgo",
+      "Chief",
       "cinematic",
       "clean",
       "clear",
       "control",
-      "crossfire",
+      "Crossfire",
       "CRSF",
-      "culture fpv",
-      "dad",
-      "david",
+      "ctzsnooze",
+      "CTZsoonze",
+      "DDC",
       "default",
       "defaults",
       "diatone",
@@ -198,38 +250,53 @@
       "EVO",
       "expert",
       "express",
+      "feisar",
       "filter",
       "filtering",
       "filters",
+      "five33",
+      "fpvian",
+      "freedom",
+      "freedom spec",
       "freestyle",
       "freestyle_HD",
+      "freesytle",
       "frsky",
+      "Garban",
       "ghost",
       "GHST",
       "GPS",
       "gyro",
       "gyros",
       "gyroscope",
-      "hd",
+      "HD",
       "HD_freestyle",
       "HDzero",
+      "Headsup",
       "hot",
       "HV",
+      "IllusionFpv",
       "immersion",
       "immersionRC",
       "IRC",
       "jitter",
+      "justice",
+      "karate",
+      "KarateBrot",
       "launch",
       "launch_mode",
       "leds",
+      "Limon",
       "link",
       "log",
       "logging",
-      "longrange",
-      "maelremrem",
+      "Long Range",
       "mamba",
+      "meteor",
+      "MinChan",
       "mode",
       "modes",
+      "MultiGP",
       "names",
       "nano",
       "nanohawk",
@@ -237,6 +304,7 @@
       "noisy",
       "normal",
       "OP400",
+      "OpenRacer",
       "OpenVTx",
       "OSD",
       "OVX300",
@@ -245,10 +313,13 @@
       "pid",
       "pro32",
       "profile",
-      "purerace",
+      "Pure Race",
+      "quaddiction",
+      "quick",
       "race",
-      "race250",
-      "race500",
+      "race rates ctzsnooze actual",
+      "Race250",
+      "Race500",
       "racing",
       "rates",
       "RC",
@@ -263,6 +334,7 @@
       "rush",
       "rush tank",
       "rushfpv",
+      "russia",
       "Rx",
       "sa",
       "SA 2.0",
@@ -273,37 +345,53 @@
       "sbus",
       "SBUS fast",
       "settings",
+      "shames",
       "shark bite",
       "smartaudio",
       "smooth",
       "smoothing",
-      "soild250",
+      "Solid250",
       "some",
+      "spec",
       "speedybee",
       "stats",
+      "suagrK",
       "sugarK",
+      "Supafly",
+      "SupaflyFPV",
       "switch",
       "tank solo",
       "tank ultimate",
       "TBS",
+      "Team Black Sheep",
+      "texas",
+      "tiny",
       "tiny tank",
-      "tracer",
+      "tinyTrainer",
+      "Tracer",
+      "trainer",
       "TRAMP",
       "transition",
       "transmitter",
       "tune",
+      "twig",
       "tx800",
+      "UAV Tech",
       "ultra",
       "ultra 1000",
       "unify",
       "unify pro",
+      "vanover",
       "very",
       "very clean",
       "very noisy",
       "vtx",
       "vtx table",
       "vtxtable",
-      "zouari"
+      "whoop",
+      "whooptopia",
+      "world champion",
+      "youtube"
     ]
   },
   "presets": [
@@ -350,6 +438,25 @@
         "RPM"
       ],
       "author": "DusKing1 (Hugo Chiang), Pitronic",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
+      "hash": "751a6f316eb81fd94215291eb35b719cc52d9ca66baa53668d495f8351e1156c",
+      "title": "ctzsnooze's race filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "race",
+        "filter",
+        "filters",
+        "ctzsnooze",
+        "RPM"
+      ],
+      "author": "Betaflight",
       "priority": 100
     },
     {
@@ -599,6 +706,29 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/karate_array.txt",
+      "hash": "7d4913bf9839cc9bb055ab942a22c3c015a2f258e30633a07edcaaf98eb85df0",
+      "title": "the Karate array",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "karate",
+        "race",
+        "freesytle",
+        "suagrK",
+        "CTZsoonze",
+        "KarateBrot",
+        "5\""
+      ],
+      "author": "sugarK",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "title": "Default 4.3 LED settings",
@@ -800,22 +930,92 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/dad_zouari.txt",
-      "hash": "a758a1172a8becb207c168f33784d61b0c080c8ec5786068251e0b1c6bc72bfb",
-      "title": "David Zouari Freestyle 5inch rates",
+      "fullPath": "presets/4.3/rates/Bardwell.txt",
+      "hash": "fe0db350b5775b7b2ceaf54ce51ddaef1b3f813e707e09c127943bc07c1d1f92",
+      "title": "Joshua Bardwell rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "dad",
-        "david",
-        "zouari",
-        "rates",
+        "youtube",
+        "bardwell",
         "freestyle"
       ],
-      "author": "CultureFPV",
+      "author": "Joshua Bardwell",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/BMSThomas.txt",
+      "hash": "b7475cbcf6113cc01385f282c8d85bfee258cc7256aabdb9d995fcbaa6304cb5",
+      "title": "BMSThomas racing/freestyle rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "BMSThomas",
+        "rates",
+        "MultiGP"
+      ],
+      "author": "BMSThomas",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/CGo.txt",
+      "hash": "0dfc7151103bda6cae83aa843512857906e31fb16ba408c11cc7840a34c8ebf8",
+      "title": "CGo race rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "rates",
+        "MultiGP",
+        "quaddiction",
+        "Cgo"
+      ],
+      "author": "sugarK",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/Chief.txt",
+      "hash": "91a2eb51e96dae61376a4b218476c024ff8410c697af7252060dbf880a6c020d",
+      "title": "Chief race/freestyle rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "race",
+        "Chief",
+        "AlexFPV",
+        "racing",
+        "\\\\GAS",
+        "freestyle"
+      ],
+      "author": "Alex Campbell (Chief)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/ctzsnooze_race.txt",
+      "hash": "c580ff16eac1b602195f1194caff3da0476d55c9bc7e527f7b0ba8b67774c24b",
+      "title": "race rates by ctzsnooze",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "race rates ctzsnooze actual"
+      ],
+      "author": "ctzsnooze",
       "priority": 10000
     },
     {
@@ -836,20 +1036,170 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/maelremrem.txt",
-      "hash": "63256963bc524b56789c62110793e07e577e15176ed71eb9411772dd07d3bf3b",
-      "title": "Maelremrem Freestyle 5inch rates",
+      "fullPath": "presets/4.3/rates/Directory_freestyle.txt",
+      "hash": "2478b869e459450024e482488d4fa3103528d449db747f48e2e873eb18d77a9c",
+      "title": "Directory freestyle rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "maelremrem",
-        "rates",
         "freestyle"
       ],
-      "author": "CultureFPV",
+      "author": "Directory",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/Feisar_freestyle.txt",
+      "hash": "e5ecd4c804d9c099c7c8b99c386e484d8bffe32fc748e4ecd55d17e74297f5c1",
+      "title": "Feisar freestyle rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rates",
+        "betaflight",
+        "feisar"
+      ],
+      "author": "Feisar",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/Garban_race.txt",
+      "hash": "38458536a284eccd15f779595d9bb18b833ac5b4a6bd2787f0ee51fb88f490b2",
+      "title": "Garban Official race rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "rates",
+        "DDC",
+        "Acrobaix",
+        "Garban"
+      ],
+      "author": "Garban",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/Headsup533.txt",
+      "hash": "82f3e158de3b4e037551a672dabaa752e44943c9b13f6ebf33c092c9d63dade1",
+      "title": "Headsup racing rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "Headsup",
+        "533",
+        "five33",
+        "rates",
+        "MultiGP"
+      ],
+      "author": "Evan Turner (Headsup)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/illusionfpv_freestyle.txt",
+      "hash": "79a4e23fec488266e4e3ac174235d49bf013154b83caf0c8f5e223135be0f5f6",
+      "title": "freestyle rates by IllusionFpv",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "freestyle",
+        "rates",
+        "IllusionFpv",
+        "quick"
+      ],
+      "author": "IllusionFpv",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/limon.txt",
+      "hash": "07372fdf1beee407d23e977a89f414c40dc1aaa620069c46a2b0a51bd49da2a0",
+      "title": "Limon racing rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "racing",
+        "Limon",
+        "OpenRacer",
+        "texas",
+        "russia",
+        "rates",
+        "MultiGP"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/MinChan.txt",
+      "hash": "2ec0aa7511e5642e28f82211380594a2efbf6e6e801942f1151d2fb5a9658c50",
+      "title": "MinChan Kim racing rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "race",
+        "MinChan",
+        "rates"
+      ],
+      "author": "MinChan Kim",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/UAV_tech.txt",
+      "hash": "b446efe96a216241890e10e0308030dd02b4ca975df3d50ba6723039768c343e",
+      "title": "UAV Tech rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "UAV Tech",
+        "youtube",
+        "freestyle",
+        "HD",
+        "cinematic"
+      ],
+      "author": "Mark Spatz (UAV Tech)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/Vanover.txt",
+      "hash": "a967f62ea2403b1cae5036cdc2e08e5964d4722640e7578048b95ab356658cc6",
+      "title": "Vanover racing/freestyle rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "race",
+        "vanover",
+        "rates",
+        "MultiGP",
+        "freestyle"
+      ],
+      "author": "Alex Vanover",
       "priority": 10000
     },
     {
@@ -1414,82 +1764,184 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_freestyle.txt",
-      "hash": "cc5fd85c176ad1bb6474cfde8033b7fcd18ff87517b8e14d43b65974f92b61c7",
-      "title": "IRC Ghost Freestyle",
+      "fullPath": "presets/4.3/rc_link/ghost/long_range.txt",
+      "hash": "f3e7692c910c73f728776b190406d6395afbdfcf4e867aaed8f99a412559e9c9",
+      "title": "IRC Ghost; Mode: Long Range",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "15Hz",
+        "Long Range",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "250Hz",
-        "500Hz",
-        "freestyle",
-        "purerace",
-        "soild250",
-        "race250",
-        "race500",
-        "race",
-        "normal",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_longrange.txt",
-      "hash": "2a1985804125e2058d30c772be82847a51535d4cbd49614a1e123557ab573b29",
-      "title": "IRC Ghost Longrange",
+      "fullPath": "presets/4.3/rc_link/ghost/normal.txt",
+      "hash": "f00c3298575744c10549dcaa46e11f1b9f47ad9d1ecea75fb1018254c1deeae4",
+      "title": "IRC Ghost; Mode: Normal",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "55Hz",
+        "Normal",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "longrange",
-        "race",
-        "normal",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_race.txt",
-      "hash": "3181ecf360d46e602c8e026ad34e9b630529c86ba0343ee001a80731a4707c00",
-      "title": "IRC Ghost Racing",
+      "fullPath": "presets/4.3/rc_link/ghost/pure_race.txt",
+      "hash": "774246459eb0f90d2a711f33629434a158e6901d4d9f151096e60a215176f97e",
+      "title": "IRC Ghost; Mode: Pure Race",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "250Hz",
+        "Pure Race",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "250Hz",
-        "500Hz",
-        "racing",
-        "purerace",
-        "soild250",
-        "race250",
-        "race500",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race.txt",
+      "hash": "3ce22e7cbe17569b09ab5ffb2ed027d279400aeb40d76dcc8341a327b18662eb",
+      "title": "IRC Ghost; Mode: Race",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "166Hz",
+        "Race",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race250.txt",
+      "hash": "c766372d2ac35962104ad3b62438b3b0d154483a793ea1c5499919aea3fbb59c",
+      "title": "IRC Ghost; Mode: Race250",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "250Hz",
+        "Race250",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race500.txt",
+      "hash": "08e2901805cbd785b585fd1ea2b0c0a27cb81322a0df498732ab681a2ef2a01f",
+      "title": "IRC Ghost; Mode: Race500",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "500Hz",
+        "Race500",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/solid250.txt",
+      "hash": "9645822102017ac300fd5a72114a2bbd0c91550656dc5aa0677b52f8b57b6f1a",
+      "title": "IRC Ghost; Mode: Solid250",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "250Hz",
+        "Solid250",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
@@ -1549,70 +2001,72 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_freestyle.txt",
-      "hash": "06f19252c6d8abb331d39bec21868f6802506e2bc0b212b65daf7c28bb2634c6",
-      "title": "TBS Crossfire/Tracer freesyle",
+      "fullPath": "presets/4.3/rc_link/tbs/crossfire_150hz.txt",
+      "hash": "b85196050a49fe7ef7a6baa826b6043867fdd3fe81c61830629bb98dd7f8c77a",
+      "title": "TBS Crossfire 150Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
-        "250Hz",
-        "crossfire",
-        "freestyle",
         "150Hz",
-        "50Hz",
-        "CRSF"
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_longrange.txt",
-      "hash": "d12a7736b42b92f7de2fd945ac79c3f43ff112f3c3deab46990b4252851daf79",
-      "title": "TBS Crossfire longrange",
+      "fullPath": "presets/4.3/rc_link/tbs/crossfire_50hz.txt",
+      "hash": "831ebad99ca3a77241177dacd9101dde7bcab7b10610d3a6a26149823eedb312",
+      "title": "TBS Crossfire 50Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "TBS",
-        "crossfire",
-        "longrange",
         "50Hz",
-        "CRSF"
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_race.txt",
-      "hash": "69a246c3b18af439e198217f71bf14e5e6a43fbb426bfda695caf5e08fbd16b9",
-      "title": "TBS Crossfire/Tracer racing",
+      "fullPath": "presets/4.3/rc_link/tbs/tracer_250hz.txt",
+      "hash": "aa4919189a2e306adc8921c21c95fef3ac465b736921b6b0acfe13e5a2b21b45",
+      "title": "TBS Tracer 250Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
         "250Hz",
-        "crossfire",
-        "racing",
-        "150Hz",
-        "CRSF"
+        "TBS",
+        "Tracer",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
@@ -1718,6 +2172,29 @@
       "priority": 100000000
     },
     {
+      "fullPath": "presets/4.3/tune/ctzsnooze_5in_4S_race.txt",
+      "hash": "681f93f549f7331f0b4b1e779dff4efa1bbc8d0e33a30f8539ca805d8c8b7766",
+      "title": "4S, 3\" to 5\" race tune by ctzsznooze",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "3in",
+        "4in",
+        "5in",
+        "twig",
+        "4S",
+        "race",
+        "tune",
+        "ctzsnooze"
+      ],
+      "author": "ctzsnooze",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/defaults.txt",
       "hash": "a34613c8541c3bf5611d5d3596ece890b902fd8d2378e7f6a03b60a59b61230b",
       "title": "Tune defaults for Basic 4.3 TUNES",
@@ -1736,6 +2213,100 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
+      "hash": "03b21087600c46dec99c7c6f6c0dbba6a48011830a5b26e3a3d1c9ea220d4dde",
+      "title": "Basher Freestyle 6S 5\" by FPVian",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "basher",
+        "freestyle",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "bando",
+        "fpvian"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/freedom_spec_460g.txt",
+      "hash": "f3cf15cb439abc653735f014f30a940e02eb48eb06aa367bee73cfaeb4e020f0",
+      "title": "Freedom Spec 460 - 500g",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "freedom",
+        "freedom spec",
+        "headsup",
+        "five33",
+        "533",
+        "racing",
+        "race",
+        "5\""
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/karate_freestyle_5_inch.txt",
+      "hash": "f01d120cbd51bfee298a8ba8b78d9fb6577fbc20d2b36b699f9215d47135df31",
+      "title": "Freestyle 5\" Karate Style",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "karate",
+        "6S",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "karateBrot",
+        "freestyle"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/karate_race.txt",
+      "hash": "626e85505453bbfa17c2fa2ad2e87425acea943c6810992619a07382921ed42c",
+      "title": "Karate Race 6s 5\"",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "6S",
+        "race",
+        "world champion",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "karateBrot"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
@@ -1778,24 +2349,133 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "ec70e03567e84bc3690fdc1fb971e43cf28b3277a2c63eb4b8d8e9014ae22311",
-      "title": "Tune Culture FPV Frame By Ced Ric",
+      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_5_Inch_EasyTune.txt",
+      "hash": "3dc7346f137921b25a16da6b0aa70f500f2c0059edbbb67644f9c79eb94bb9d3",
+      "title": "SupaflyFPV Freestyle 5 Inch",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Supafly",
+        "SupaflyFPV",
+        "4S",
+        "6S",
+        "Freestyle",
+        "5 inch",
+        "5\""
+      ],
+      "author": "SupaflyFPV",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_6_and_EasyTune.txt",
+      "hash": "62d190dd6030d0f3779e67dcbd24bd9ffa3162bab2a24cc090d9bc6c15432a77",
+      "title": "SupaflyFPV Freestyle 6 Inch",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Supafly",
+        "SupaflyFPV",
+        "Freestyle",
+        "6\"",
+        "6 Inch"
+      ],
+      "author": "SupaflyFPV",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/SupaflyFPV_Freestyle_7_Inch_EasyTune.txt",
+      "hash": "49fe93d94e826091b38c9260885e3958ec621bccb0e1cd313a7785e62b22b6e9",
+      "title": "SupaflyFPV Freestyle 7 Inch",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Supafly",
+        "SupaflyFPV",
+        "Freestyle",
+        "7\"",
+        "7 Inch"
+      ],
+      "author": "SupaflyFPV",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/tiny_karate.txt",
+      "hash": "a417f87aae3f44caffc5fbf43a6b538053db73b74a94ecb762a362de739d32c5",
+      "title": "533 TinyTrainer Karate",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "defaults",
-        "reset",
-        "tune",
-        "pid",
-        "basic",
-        "default",
-        "culture fpv"
+        "karate",
+        "race",
+        "533",
+        "3 inch",
+        "3\"",
+        "sugarK",
+        "shames",
+        "tiny",
+        "trainer",
+        "spec",
+        "tinyTrainer"
       ],
-      "author": "Ced Ric",
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/whoop_ayyykayyy.txt",
+      "hash": "18a0a21b675f4c2e4719bae8d448684e58b51981f657755fe4c2f95e7eaea2c7",
+      "title": "Whoop race tune by AyyyKayyy",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "whoop",
+        "65mm",
+        "1S",
+        "race",
+        "acro",
+        "tune",
+        "AyyyKayyy",
+        "meteor",
+        "whooptopia",
+        "brushless"
+      ],
+      "author": "AyyyKayyy - Anthony Knight",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/whoop_justice.txt",
+      "hash": "3a7fc98a781ab27d1ae77dd0678bfdbb4b5180b22d7fd595d476520322704b6e",
+      "title": "Whoop race tune by Justice",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "whoop",
+        "65mm",
+        "1S",
+        "race",
+        "acro",
+        "tune",
+        "justice",
+        "meteor"
+      ],
+      "author": "Justice - Gary Kent",
       "force_options_review": true,
       "priority": 1000000000000
     },
