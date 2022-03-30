@@ -10,7 +10,6 @@
       "VTX": "VTX",
       "LEDS": "LEDS",
       "MODES": "MODES",
-      "RC_SMOOTHING": "RC_SMOOTHING",
       "FILTERS": "FILTERS",
       "RC_LINK": "RC_LINK",
       "BNF": "BNF",
@@ -38,7 +37,8 @@
       "WORDS_ARRAY": "WORDS_ARRAY",
       "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
       "PRESET_STATUS": "PRESET_STATUS",
-      "PRIORITY": "PRIORITY"
+      "PRIORITY": "PRIORITY",
+      "PARSER": "PARSER"
     },
     "OptionsDirectives": {
       "OPTION_DIRECTIVE": "option",
@@ -53,6 +53,10 @@
       "OFFICIAL",
       "COMMUNITY",
       "EXPERIMENTAL"
+    ],
+    "ParserEnum": [
+      "TEXT",
+      "MARKED"
     ],
     "presetsDir": "presets",
     "presetsFileEncoding": "utf-8",
@@ -120,6 +124,10 @@
       "force_options_review": {
         "type": "BOOLEAN",
         "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
       }
     }
   },
@@ -136,7 +144,6 @@
       "OTHER",
       "RATES",
       "RC_LINK",
-      "RC_SMOOTHING",
       "TUNE",
       "VTX"
     ],
@@ -147,8 +154,10 @@
       "CultureFPV",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
+      "Garban",
       "Ivan Efimov (Limon)",
       "Jye Smith",
+      "MrAlucardDante",
       "NemesisXB",
       "Sjoer van der Ploeg",
       "sugarK",
@@ -157,16 +166,22 @@
     "keywords": [
       "111hz",
       "150Hz",
+      "15Hz",
+      "166Hz",
+      "2.1",
       "20ms",
       "250Hz",
       "2ms",
+      "5\"",
       "500Hz",
       "50Hz",
+      "55Hz",
       "666Hz",
       "9ms",
+      "Acrobaix",
       "actual",
       "adjustments",
-      "aggressive",
+      "Audio",
       "aux",
       "basic",
       "betaflight",
@@ -174,16 +189,17 @@
       "BMI270",
       "camera",
       "camera_control",
-      "cfv2",
-      "cinematic",
       "clean",
       "clear",
       "control",
-      "crossfire",
+      "Crossfire",
       "CRSF",
+      "ctzsnooze",
+      "CTZsoonze",
       "culture fpv",
       "dad",
       "david",
+      "DDC",
       "default",
       "defaults",
       "diatone",
@@ -193,6 +209,7 @@
       "DShot telemetry",
       "dual",
       "E7082VM",
+      "eachine",
       "ELRS",
       "emax",
       "EVO",
@@ -202,30 +219,31 @@
       "filtering",
       "filters",
       "freestyle",
-      "freestyle_HD",
+      "freesytle",
       "frsky",
+      "Garban",
       "ghost",
       "GHST",
       "GPS",
       "gyro",
+      "gyroflow",
       "gyros",
       "gyroscope",
-      "hd",
-      "HD_freestyle",
       "HDzero",
       "hot",
       "HV",
       "immersion",
       "immersionRC",
       "IRC",
-      "jitter",
+      "karate",
+      "KarateBrot",
       "launch",
       "launch_mode",
       "leds",
       "link",
       "log",
       "logging",
-      "longrange",
+      "Long Range",
       "maelremrem",
       "mamba",
       "mode",
@@ -245,15 +263,13 @@
       "pid",
       "pro32",
       "profile",
-      "purerace",
+      "Pure Race",
       "race",
-      "race250",
-      "race500",
-      "racing",
+      "Race250",
+      "Race500",
       "rates",
       "RC",
       "rc link",
-      "rc smoothing",
       "rc_link",
       "rc_smoothing",
       "Redpine",
@@ -274,22 +290,24 @@
       "SBUS fast",
       "settings",
       "shark bite",
-      "smartaudio",
-      "smooth",
+      "smart",
+      "SmartAudio",
+      "SmartAudio 2.1",
       "smoothing",
-      "soild250",
+      "Solid250",
       "some",
       "speedybee",
       "stats",
+      "suagrK",
       "sugarK",
       "switch",
       "tank solo",
       "tank ultimate",
       "TBS",
+      "Team Black Sheep",
       "tiny tank",
-      "tracer",
+      "Tracer",
       "TRAMP",
-      "transition",
       "transmitter",
       "tune",
       "tx800",
@@ -353,8 +371,27 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
+      "hash": "751a6f316eb81fd94215291eb35b719cc52d9ca66baa53668d495f8351e1156c",
+      "title": "ctzsnooze's race filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "race",
+        "filter",
+        "filters",
+        "ctzsnooze",
+        "RPM"
+      ],
+      "author": "Betaflight",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
+      "hash": "34a776bc7ab697a6f72f35fcfb77ab9764c0266186f8edd937f901587711e26f",
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3"
@@ -599,6 +636,29 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/karate_array.txt",
+      "hash": "7d4913bf9839cc9bb055ab942a22c3c015a2f258e30633a07edcaaf98eb85df0",
+      "title": "the Karate array",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "karate",
+        "race",
+        "freesytle",
+        "suagrK",
+        "CTZsoonze",
+        "KarateBrot",
+        "5\""
+      ],
+      "author": "sugarK",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "title": "Default 4.3 LED settings",
@@ -670,6 +730,26 @@
         "sugarK"
       ],
       "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/gyroflow_min_blackbox.txt",
+      "hash": "15c71e564d549b8e3abd80026c83ff17241606137af32dd5a7b6f42ee228cc4c",
+      "title": "Gyroflow minimum settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "gyroflow",
+        "blackbox",
+        "log",
+        "DDC",
+        "Acrobaix",
+        "Garban"
+      ],
+      "author": "Garban",
       "priority": 0
     },
     {
@@ -876,7 +956,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/DJI_Normal.txt",
-      "hash": "502da7e4901758251bc6e239d5a48a5a1e2e8b8ff108092040948a2a0d7a5ab4",
+      "hash": "f6adb5f164fe234ee3e0f96747d629d548ac222fb7d7f658202a2bb60d786bdf",
       "title": "DJI Normal",
       "firmware_version": [
         "4.3"
@@ -895,7 +975,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/DJI_SBUS_Fast.txt",
-      "hash": "8903a50237bdb9b735effce19ae351f4dc1709315f572a2620c198e600035302",
+      "hash": "47e4acedecf6c68c74f9fe664a8614f4a2d3517e0665030918a549ca34d623ad",
       "title": "DJI SBUS FAST",
       "firmware_version": [
         "4.3"
@@ -1414,82 +1494,184 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_freestyle.txt",
-      "hash": "cc5fd85c176ad1bb6474cfde8033b7fcd18ff87517b8e14d43b65974f92b61c7",
-      "title": "IRC Ghost Freestyle",
+      "fullPath": "presets/4.3/rc_link/ghost/long_range.txt",
+      "hash": "37bf52892ae6489822ac980577a60b81bf2762b87f0b5d18fce38855637f84d9",
+      "title": "IRC Ghost (Long Range)",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "15Hz",
+        "Long Range",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "250Hz",
-        "500Hz",
-        "freestyle",
-        "purerace",
-        "soild250",
-        "race250",
-        "race500",
-        "race",
-        "normal",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_longrange.txt",
-      "hash": "2a1985804125e2058d30c772be82847a51535d4cbd49614a1e123557ab573b29",
-      "title": "IRC Ghost Longrange",
+      "fullPath": "presets/4.3/rc_link/ghost/normal.txt",
+      "hash": "2c208ecec8ec21fe23a20c150d91b9debe94a3bbe85e8513730288bad2fdc221",
+      "title": "IRC Ghost (Mode: Normal)",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "55Hz",
+        "Normal",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "longrange",
-        "race",
-        "normal",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/IRC_race.txt",
-      "hash": "3181ecf360d46e602c8e026ad34e9b630529c86ba0343ee001a80731a4707c00",
-      "title": "IRC Ghost Racing",
+      "fullPath": "presets/4.3/rc_link/ghost/pure_race.txt",
+      "hash": "02fa58697a85f4015a6727202565265dcd1d96119299ff7122a6a0827af42e79",
+      "title": "IRC Ghost (Pure Race)",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
+        "250Hz",
+        "Pure Race",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
         "ghost",
         "IRC",
         "GHST",
-        "250Hz",
-        "500Hz",
-        "racing",
-        "purerace",
-        "soild250",
-        "race250",
-        "race500",
         "immersionRC",
         "immersion"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race.txt",
+      "hash": "604505e2bf18d7064bcd5579ef9f1c54817639605f0e413f20c863a2af271a6e",
+      "title": "IRC Ghost (Mode: Race)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "166Hz",
+        "Race",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race250.txt",
+      "hash": "594e3c6aac3387c98e601ad733ed1661a1cee9ea6f3118e7d9e42b7c7602b476",
+      "title": "IRC Ghost (Race250)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "250Hz",
+        "Race250",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/race500.txt",
+      "hash": "a609358caf58090ece18d86916b19dc418a5d6321ac557a61f6d90827a0c8c2c",
+      "title": "IRC Ghost (Race500)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "500Hz",
+        "Race500",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/ghost/solid250.txt",
+      "hash": "10e98599896fb36691557a0a09134139b9640055a8e7e58bc48d10e73dbffd95",
+      "title": "IRC Ghost (Solid250)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "250Hz",
+        "Solid250",
+        "ghost",
+        "rc",
+        "rx",
+        "link",
+        "ghost",
+        "IRC",
+        "GHST",
+        "immersionRC",
+        "immersion"
+      ],
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
@@ -1549,177 +1731,77 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_freestyle.txt",
-      "hash": "06f19252c6d8abb331d39bec21868f6802506e2bc0b212b65daf7c28bb2634c6",
-      "title": "TBS Crossfire/Tracer freesyle",
+      "fullPath": "presets/4.3/rc_link/tbs/crossfire_150hz.txt",
+      "hash": "cc79b53a8abaf6413302d29c93daafdc51643e2268bd29b0ed369f93202c7af4",
+      "title": "TBS Crossfire 150Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
-        "250Hz",
-        "crossfire",
-        "freestyle",
         "150Hz",
-        "50Hz",
-        "CRSF"
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_longrange.txt",
-      "hash": "d12a7736b42b92f7de2fd945ac79c3f43ff112f3c3deab46990b4252851daf79",
-      "title": "TBS Crossfire longrange",
+      "fullPath": "presets/4.3/rc_link/tbs/crossfire_50hz.txt",
+      "hash": "e4bfdca099a049bf525bb8fa236a4bd97168a59516db639f4936f47402ccbc50",
+      "title": "TBS Crossfire 50Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "TBS",
-        "crossfire",
-        "longrange",
         "50Hz",
-        "CRSF"
+        "TBS",
+        "Crossfire",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_race.txt",
-      "hash": "69a246c3b18af439e198217f71bf14e5e6a43fbb426bfda695caf5e08fbd16b9",
-      "title": "TBS Crossfire/Tracer racing",
+      "fullPath": "presets/4.3/rc_link/tbs/tracer_250hz.txt",
+      "hash": "7ae066ca7f02c9a14de85ed184e0dac160eb47123bb6467d127a0c4211ee0695",
+      "title": "TBS Tracer 250Hz",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
         "250Hz",
-        "crossfire",
-        "racing",
-        "150Hz",
-        "CRSF"
+        "TBS",
+        "Tracer",
+        "Team Black Sheep",
+        "CRSF",
+        "rc",
+        "rx",
+        "link"
       ],
-      "author": "sugarK",
+      "author": "Ivan Efimov (Limon)",
+      "force_options_review": true,
       "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_smoothing/cinematic.txt",
-      "hash": "b3b220fca9bf07ad226b9f4347ed7e891d75649f860582936b664956bfc512e2",
-      "title": "Cinematic RC smoothing",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "cinematic",
-        "rc",
-        "smoothing",
-        "rc_smoothing",
-        "jitter",
-        "transition",
-        "hd"
-      ],
-      "author": "ctzsnooze",
-      "priority": 100000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
-      "hash": "c91b7b93cf4a33a15d606a827e983f67441ac78a9b9a11f8ecfb36d772d62739",
-      "title": "Default 4.3 RC smoothing settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "rc smoothing",
-        "rc_smoothing"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/rc_smoothing/freestyle.txt",
-      "hash": "120bde850517f3d90edc988b2d9f459913e27b694e675036b7901086ecd64465",
-      "title": "Freestyle RC smoothing",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "freestyle",
-        "rc",
-        "smooth",
-        "smoothing",
-        "rc_smoothing",
-        "jitter"
-      ],
-      "author": "ctzsnooze",
-      "priority": 100000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_smoothing/hd_freestyle.txt",
-      "hash": "e1bd40e254fb9007be2f2dc944fa7384076113b38e8d03090cca622e121eb8ab",
-      "title": "Freestyle HD RC smoothing",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "freestyle",
-        "rc",
-        "smooth",
-        "HD",
-        "freestyle_HD",
-        "HD_freestyle",
-        "smoothing",
-        "rc_smoothing",
-        "jitter"
-      ],
-      "author": "ctzsnooze",
-      "priority": 100000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_smoothing/race.txt",
-      "hash": "d47f866a989e9d1a4bae748872f0cf13302987c27462d3b67bc23eb922717e9a",
-      "title": "Race RC smoothing",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_SMOOTHING",
-      "status": "OFFICIAL",
-      "keywords": [
-        "aggressive",
-        "rc",
-        "smoothing",
-        "race",
-        "rc_smoothing",
-        "jitter"
-      ],
-      "author": "ctzsnooze",
-      "priority": 100000000
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "a34613c8541c3bf5611d5d3596ece890b902fd8d2378e7f6a03b60a59b61230b",
+      "hash": "e0d4f600277f68d45120b00656d994af8e0492cdfc7f14f6ac2542ed4a781723",
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"
@@ -1856,6 +1938,35 @@
         "ultra 1000"
       ],
       "author": "NemesisXB",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/Eachine_Nano_V2.txt",
+      "hash": "06a4bb1cde3e61c2797e4a227211a4a05a892d53711598275dd0067916871e91",
+      "title": "Eachine Nano V2 VTX Table",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "eachine",
+        "Eachine",
+        "nano",
+        "Nano",
+        "smart",
+        "Smart",
+        "Audio",
+        "audio",
+        "SmartAudio",
+        "smartaudio",
+        "2.1",
+        "SmartAudio 2.1",
+        "smartaudio 2.1",
+        "SA 2.1"
+      ],
+      "author": "MrAlucardDante",
       "priority": 1000000
     },
     {
