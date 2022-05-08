@@ -330,51 +330,6 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/filters/BMI270.txt",
-      "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
-      "title": "4.3 Filter settings for BMI270 gyroscope",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "BMI270",
-        "filter",
-        "filters",
-        "gyroscope",
-        "gyro",
-        "gyros",
-        "settings",
-        "RPM"
-      ],
-      "author": "DusKing1 (Hugo Chiang), Pitronic",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/filters/BMI270_dual.txt",
-      "hash": "9a33f16483824bd26cabd1ffc2004f2fbf480cd981b4495340987c1a674e1e93",
-      "title": "4.3 Filter settings for dual BMI270 gyroscope",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "BMI270",
-        "filter",
-        "filters",
-        "dual",
-        "gyroscope",
-        "gyro",
-        "gyros",
-        "settings",
-        "RPM"
-      ],
-      "author": "DusKing1 (Hugo Chiang), Pitronic",
-      "priority": 100
-    },
-    {
       "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
       "hash": "751a6f316eb81fd94215291eb35b719cc52d9ca66baa53668d495f8351e1156c",
       "title": "ctzsnooze's race filter settings",
@@ -395,7 +350,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "34a776bc7ab697a6f72f35fcfb77ab9764c0266186f8edd937f901587711e26f",
+      "hash": "365d91285f53f2ad0a1521a158d498840143f2d566d511397ab19f2f402a920e",
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3"
@@ -637,6 +592,51 @@
         "betaflight"
       ],
       "author": "Betaflight",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/dusking_BMI270.txt",
+      "hash": "0dd77e8e1baed07019f836352818d0b8eccb1125f5123511cc25cb0118591a8d",
+      "title": "DusKing's BMI270 filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "BMI270",
+        "filter",
+        "filters",
+        "gyroscope",
+        "gyro",
+        "gyros",
+        "settings",
+        "RPM"
+      ],
+      "author": "DusKing1 (Hugo Chiang), Pitronic",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/dusking_BMI270_dual.txt",
+      "hash": "359a3d4d5391cb3c30bec79cc00db8dbb39de19c587bd8584930c1d21e06cb3e",
+      "title": "DusKing's dual BMI270 filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "BMI270",
+        "filter",
+        "filters",
+        "dual",
+        "gyroscope",
+        "gyro",
+        "gyros",
+        "settings",
+        "RPM"
+      ],
+      "author": "DusKing1 (Hugo Chiang), Pitronic",
       "priority": 100
     },
     {
