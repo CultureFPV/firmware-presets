@@ -133,6 +133,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "3.5",
       "4.2",
       "4.3"
     ],
@@ -152,6 +153,7 @@
       "Ced Ric",
       "ctzsnooze",
       "CultureFPV",
+      "Daniel Appel / Tehllama",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
       "Garban",
@@ -190,6 +192,7 @@
       "camera_control",
       "clean",
       "clear",
+      "Configure",
       "control",
       "Crossfire",
       "CRSF",
@@ -265,6 +268,7 @@
       "OVX300",
       "OVX303",
       "partial",
+      "Passthrough",
       "pid",
       "pro32",
       "profile",
@@ -319,6 +323,7 @@
       "ultra 1000",
       "unify",
       "unify pro",
+      "utility",
       "very",
       "very clean",
       "very noisy",
@@ -734,6 +739,26 @@
         "sugarK"
       ],
       "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/ELRS_Passthrough.txt",
+      "hash": "fcee0c30a390f30b0ef92dbba0cc15285674d4c9fdab23a0b469753d2efeaa9a",
+      "title": "ExpressLRS Passthrough Betaflight Settings",
+      "firmware_version": [
+        "3.5",
+        "4.2",
+        "4.3"
+      ],
+      "status": "OFFICIAL",
+      "category": "OTHER",
+      "keywords": [
+        "ELRS",
+        "Passthrough",
+        "Configure",
+        "utility"
+      ],
+      "author": "Daniel Appel / Tehllama",
       "priority": 0
     },
     {
@@ -1890,7 +1915,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Tune Culture FPV Frame By Ced Ric.txt",
-      "hash": "ec70e03567e84bc3690fdc1fb971e43cf28b3277a2c63eb4b8d8e9014ae22311",
+      "hash": "2068fb1f41f1969532a318b71c6c0f44f19ce4bbe616cfd1e52291fd45857d2e",
       "title": "Tune Culture FPV Frame By Ced Ric",
       "firmware_version": [
         "4.3"

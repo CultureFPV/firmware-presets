@@ -5,8 +5,8 @@
 #$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
 #$ AUTHOR: Ced Ric
 #$ DESCRIPTION: Ce preset utilisant le filtre RPM, assurez-vous d'avoir vos firmwares ESC compatibles "Bi-Directional DSHOT":
-#$ DESCRIPTION: - BLHeli_S: JESC, BlueJay, ou BLHeli-M JazzMaverick.
-#$ DESCRIPTION: - BLHeli32: 32.7.
+#$ DESCRIPTION: - BLHeli_S: JESC, BlueJay 0.16 (24kHz PWM)
+#$ DESCRIPTION: - BLHeli32: 32.7 (24kHz PWM)
 #$ DESCRIPTION:
 #$ DESCRIPTION: Option: DSHOT300 pour processeur F4xx, ou DSHOT600 pour processeur F7xx.
 #$ DESCRIPTION:
@@ -31,7 +31,7 @@
 
 # -- PID Sliders --
 set dyn_idle_min_rpm = 30
-set simplified_master_multiplier = 120
+set simplified_master_multiplier = 140
 set simplified_i_gain = 70
 set simplified_pi_gain = 110
 set simplified_feedforward_gain = 120
