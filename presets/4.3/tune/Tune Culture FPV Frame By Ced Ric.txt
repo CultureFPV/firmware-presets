@@ -4,6 +4,14 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: defaults, reset, tune, pid, basic, default, culture fpv
 #$ AUTHOR: Ced Ric
+#$ DESCRIPTION:
+#$ DESCRIPTION:[www.theuavtech.com](https://culturefpv.fr/)
+#$ DESCRIPTION: <img src="https://culturefpv.fr/wp-content/uploads/2018/12/Logo-mailing.png" width="125px" style="margin-left: auto; margin-right: auto; display: block;"/>
+#$ DESCRIPTION:
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Tune de base pour la CultureFPV 5" avec caméra HD (type Session 5), adapté aux lipos 4s et 6s.
+#$ DESCRIPTION: -----------
 #$ DESCRIPTION: Ce preset utilisant le filtre RPM, assurez-vous d'avoir vos firmwares ESC compatibles "Bi-Directional DSHOT":
 #$ DESCRIPTION: - BLHeli_S: JESC, BlueJay 0.16 (24kHz PWM)
 #$ DESCRIPTION: - BLHeli32: 32.7 (24kHz PWM)
@@ -11,7 +19,7 @@
 #$ DESCRIPTION: Option: DSHOT300 pour processeur F4xx, ou DSHOT600 pour processeur F7xx.
 #$ DESCRIPTION:
 #$ DESCRIPTION: Appliquez ensuite le preset RCLink, adapté à votre émetteur radio (TX),
-#$ DESCRIPTION: puis RC_Smoothing suivant votre préférence / style.
+#$ DESCRIPTION: et l'option Fine-Tuning suivant votre préférence / style (personnellement, je choisis Freestyle).
 #$ DESCRIPTION:
 #$ DESCRIPTION: Effectuez un vol de 20sec stationnaire pour vérifier la température et sons des moteurs. Si OK, faites un test réel et vérifier le comportement global.
 #$ DESCRIPTION:
