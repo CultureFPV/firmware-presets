@@ -7,8 +7,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION:
-#$ DESCRIPTION:[www.theuavtech.com](https://culturefpv.fr/)
+#$ DESCRIPTION: [CultureFPV](https://culturefpv.fr/)
 #$ DESCRIPTION: <img src="https://culturefpv.fr/wp-content/uploads/2018/12/Logo-mailing.png" width="125px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
 #$ DESCRIPTION: Information:
