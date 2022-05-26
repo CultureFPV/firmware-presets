@@ -176,7 +176,6 @@
       "5\"",
       "500Hz",
       "50Hz",
-      "533",
       "55Hz",
       "666Hz",
       "9ms",
@@ -220,9 +219,6 @@
       "filter",
       "filtering",
       "filters",
-      "five33",
-      "freedom",
-      "freedom spec",
       "freestyle",
       "freesytle",
       "frsky",
@@ -235,7 +231,6 @@
       "gyros",
       "gyroscope",
       "HDzero",
-      "headsup",
       "hot",
       "HV",
       "immersion",
@@ -247,7 +242,6 @@
       "launch",
       "launch_mode",
       "leds",
-      "limon",
       "link",
       "log",
       "logging",
@@ -276,7 +270,6 @@
       "race",
       "Race250",
       "Race500",
-      "racing",
       "rates",
       "RC",
       "rc link",
@@ -1847,31 +1840,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/tune/freedom_spec_460g.txt",
-      "hash": "5ac3216c39f3b1b630d6938ac943e3b00c38e15585394413d0d424f634db5e16",
-      "title": "Freedom Spec 460 - 500g",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "sugarK",
-        "limon",
-        "ctzsnooze",
-        "freedom",
-        "freedom spec",
-        "headsup",
-        "five33",
-        "533",
-        "racing",
-        "race",
-        "5\""
-      ],
-      "author": "Ivan Efimov (Limon)",
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
