@@ -59,7 +59,7 @@ set dyn_idle_min_rpm = 30
 
 # ------ OPIONS GO BELOW THIS LINE ------
 
-#$ OPTION_GROUP BEGIN: Choose one DSHOT Protocol ONLY!
+#$ OPTION_GROUP BEGIN: Choisir UN SEUL protocole DSHOT !
 
 #$ OPTION BEGIN (UNCHECKED): DSHOT300
 set motor_pwm_protocol = DSHOT300
