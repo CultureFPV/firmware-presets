@@ -159,6 +159,7 @@
       "Garban",
       "Ivan Efimov (Limon)",
       "Jye Smith",
+      "LeadFingers",
       "mouseFPV",
       "MrAlucardDante",
       "NemesisXB",
@@ -249,6 +250,8 @@
       "KarateBrot",
       "launch",
       "launch_mode",
+      "LeadFingers",
+      "League",
       "leds",
       "link",
       "Llama",
@@ -259,6 +262,7 @@
       "mamba",
       "mode",
       "modes",
+      "Motor",
       "Multi",
       "MultiVoltage",
       "names",
@@ -270,6 +274,7 @@
       "OP400",
       "OpenVTx",
       "OSD",
+      "output limit",
       "OVX300",
       "OVX303",
       "partial",
@@ -313,6 +318,9 @@
       "Spec",
       "speedybee",
       "stats",
+      "Street",
+      "Street League",
+      "StreetLeague",
       "suagrK",
       "sugarK",
       "switch",
@@ -322,6 +330,7 @@
       "TBS",
       "Team Black Sheep",
       "Texas",
+      "Throttle cap",
       "tiny tank",
       "Toothpick",
       "Tracer",
@@ -923,8 +932,32 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/Street_League_motor_outputs.txt",
+      "hash": "57233ef94c4cc27d3ad2ad546ef7e4d105dd09b27e2230cb9a7885a949e83dc7",
+      "title": "Street League Motor Output Limit Settings",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Motor",
+        "output limit",
+        "Street League",
+        "StreetLeague",
+        "Street",
+        "League",
+        "LeadFingers",
+        "Throttle cap"
+      ],
+      "author": "LeadFingers",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/Tehllama_5in_1900-2250KV_FreedomSpec_3S-5S-6S_Race_TUNE_OTHER.txt",
-      "hash": "dd53f9d5edb077c0929ac3252667f3d4d40000c444d48338ce569c85fc36e541",
+      "hash": "f5e7a8cd279672a7585497d0af78bd6416e145f036db50f7a655fc9d70645777",
       "title": "5in FreedomSpec Race Tune 1900-2250KV on 3S (Spec) and 5S/6S (Open)",
       "firmware_version": [
         "4.3"
@@ -945,7 +978,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Tehllama_5in_2350-2750KV-TexasSpec_3S-4S-5S_Race_TUNE_OTHER.txt",
-      "hash": "3d238ca653d717035343a831b3d92ff954bd827f3f4140cf87b3062acde635a1",
+      "hash": "5d6ed6b44c881d82559867dac445f89fe0f1e6cca98683740741bd91261d7aa2",
       "title": "5in TexasSpec Freedom Race Tune 2350-2750KV on 3S (Spec) and 4S/5S (Open)",
       "firmware_version": [
         "4.3"
@@ -968,7 +1001,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Tehllama_5in_BMS-Spec_1600-2350KV_4S-5S-6S_Race_TUNE-OTHER.txt",
-      "hash": "7ccd25a83a3f10f197d1c6b8ec9c5fbe495d514656c04aedb6e8f9b47a766340",
+      "hash": "26f49dea7894c55dfffffadaac1eadd98ed8ad6ad57ae3177e2667d9f4cec4fe",
       "title": "5in Tehllama Race Tune 1600-2350KV on 4S/5S/6S including BMS Spec",
       "firmware_version": [
         "4.3"
@@ -987,7 +1020,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Tehllama_GTB339_3in_SWPR-Spec_2S-3S_Race_TUNE_OTHER.txt",
-      "hash": "c694912c98e8ed25af5d898075ffffcd604dc2fcf9eb003e302d5371c1923d50",
+      "hash": "48993de1d96b0347b5ff6d8f0b79e9deb88a81ef9341d17c670f62fc56bfc709",
       "title": "3in Lightweight 3S/2S Tune for GTB-339 or 3\" Racing Toothpick",
       "firmware_version": [
         "4.3"
@@ -1946,7 +1979,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "e0d4f600277f68d45120b00656d994af8e0492cdfc7f14f6ac2542ed4a781723",
+      "hash": "828b9a4b14377cd9d59d803afb9c6ae3eda6d5cb7865cbf21c95c5f55acdaa05",
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"
@@ -1966,7 +1999,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
-      "hash": "5b9d76fd857aa8637c394a13e86f4dc651173ca559afe3f61556ff2b0742f347",
+      "hash": "db400b440af2f5cc25d0980fcc25cc5712f71f5ba843fcbf8020d464f6fedcb2",
       "title": "Reset 4.3 Tune parameters, complete listing",
       "firmware_version": [
         "4.3"
@@ -1986,7 +2019,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/reset_some.txt",
-      "hash": "3fa44efe126b5d69036e960559722306bce24c7f1176698a5ff6be21adc2996d",
+      "hash": "94c3a7ddfbc201135425fdf473d3480ddbbf4a498f0206d8508e19f75cc56964",
       "title": "Reset selected 4.3 Tune related settings.",
       "firmware_version": [
         "4.3"
