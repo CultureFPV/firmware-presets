@@ -177,14 +177,12 @@
       "2ms",
       "2S",
       "3S",
-      "5 inch",
       "5\"",
       "500Hz",
       "50Hz",
       "533",
       "55Hz",
       "666Hz",
-      "6S",
       "9ms",
       "Acrobaix",
       "actual",
@@ -255,7 +253,6 @@
       "LeadFingers",
       "League",
       "leds",
-      "limon",
       "link",
       "Llama",
       "log",
@@ -356,7 +353,6 @@
       "vtxtable",
       "whoop",
       "whoop lite",
-      "world champion",
       "zouari"
     ]
   },
@@ -2000,30 +1996,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/tune/karate_race.txt",
-      "hash": "04687315755456c9b599692b0ddafe64eec8d93372dcf992141b4adf38658c9b",
-      "title": "Karate Race 6s 5\"",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "karate",
-        "6S",
-        "race",
-        "world champion",
-        "5 inch",
-        "5\"",
-        "sugarK",
-        "limon",
-        "ctzsnooze",
-        "KarateBrot"
-      ],
-      "author": "sugarK",
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
