@@ -159,6 +159,7 @@
       "Garban",
       "Ivan Efimov (Limon)",
       "Jye Smith",
+      "KMfpv",
       "LeadFingers",
       "mouseFPV",
       "MrAlucardDante",
@@ -187,6 +188,7 @@
       "Acrobaix",
       "actual",
       "adjustments",
+      "Audio TBS",
       "aux",
       "basic",
       "betaflight",
@@ -311,6 +313,8 @@
       "sbus",
       "SBUS fast",
       "settings",
+      "Smart",
+      "smart audio",
       "smartaudio",
       "smoothing",
       "Solid250",
@@ -328,6 +332,7 @@
       "tank solo",
       "tank ultimate",
       "TBS",
+      "tbs sa",
       "Team Black Sheep",
       "Texas",
       "Throttle cap",
@@ -2143,6 +2148,40 @@
         "IRC TRAMP"
       ],
       "author": "MrAlucardDante",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/eachine_vtx.txt",
+      "hash": "50d3edb7b19c927fd335c2d9a916cdea88a05d56628dcabe509a6ab08eda5603",
+      "title": "Eachine VTX Tables",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "eachine",
+        "Eachine",
+        "nano",
+        "Nano",
+        "irc",
+        "IRC",
+        "tramp",
+        "TRAMP",
+        "Tramp",
+        "IRC Tramp",
+        "irc tramp",
+        "IRC TRAMP",
+        "tbs",
+        "sa",
+        "tbs sa",
+        "smartaudio",
+        "smart audio",
+        "Smart",
+        "Audio TBS"
+      ],
+      "author": "KMfpv",
       "priority": 1000000
     },
     {
