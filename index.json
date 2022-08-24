@@ -160,8 +160,6 @@
       "Ivan Efimov (Limon)",
       "Jye Smith",
       "KMfpv",
-      "LeadFingers",
-      "mouseFPV",
       "MrAlucardDante",
       "NemesisXB",
       "Sjoer van der Ploeg",
@@ -176,12 +174,9 @@
       "20ms",
       "250Hz",
       "2ms",
-      "2S",
-      "3S",
       "5\"",
       "500Hz",
       "50Hz",
-      "533",
       "55Hz",
       "666Hz",
       "9ms",
@@ -227,7 +222,6 @@
       "filter",
       "filtering",
       "filters",
-      "FreedomSpec",
       "freestyle",
       "freesytle",
       "frsky",
@@ -235,13 +229,11 @@
       "ghost",
       "GHST",
       "GPS",
-      "GTB339",
       "gyro",
       "gyroflow",
       "gyros",
       "gyroscope",
       "HDzero",
-      "HighKV",
       "hot",
       "HV",
       "immersion",
@@ -252,11 +244,8 @@
       "KarateBrot",
       "launch",
       "launch_mode",
-      "LeadFingers",
-      "League",
       "leds",
       "link",
-      "Llama",
       "log",
       "logging",
       "Long Range",
@@ -264,9 +253,6 @@
       "mamba",
       "mode",
       "modes",
-      "Motor",
-      "Multi",
-      "MultiVoltage",
       "names",
       "nano",
       "nanohawk",
@@ -276,7 +262,6 @@
       "OP400",
       "OpenVTx",
       "OSD",
-      "output limit",
       "OVX300",
       "OVX303",
       "partial",
@@ -309,7 +294,6 @@
       "SA 2.1",
       "sa2.0",
       "sa20",
-      "Safe",
       "sbus",
       "SBUS fast",
       "settings",
@@ -319,29 +303,21 @@
       "smoothing",
       "Solid250",
       "some",
-      "Spec",
       "speedybee",
       "stats",
-      "Street",
-      "Street League",
-      "StreetLeague",
       "suagrK",
       "sugarK",
       "switch",
-      "SWPR",
       "tank solo",
       "tank ultimate",
       "TBS",
       "tbs sa",
       "Team Black Sheep",
-      "Texas",
-      "Throttle cap",
       "tiny tank",
-      "Toothpick",
       "Tracer",
       "tramp",
       "transmitter",
-      "Tune",
+      "tune",
       "tx5m.1",
       "tx800",
       "ultra",
@@ -352,7 +328,6 @@
       "very",
       "very clean",
       "very noisy",
-      "Voltage",
       "vtx",
       "vtx table",
       "vtxtable",
@@ -937,117 +912,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/Street_League_motor_outputs.txt",
-      "hash": "57233ef94c4cc27d3ad2ad546ef7e4d105dd09b27e2230cb9a7885a949e83dc7",
-      "title": "Street League Motor Output Limit Settings",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "Motor",
-        "output limit",
-        "Street League",
-        "StreetLeague",
-        "Street",
-        "League",
-        "LeadFingers",
-        "Throttle cap"
-      ],
-      "author": "LeadFingers",
-      "force_options_review": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Tehllama_5in_1900-2250KV_FreedomSpec_3S-5S-6S_Race_TUNE_OTHER.txt",
-      "hash": "f5e7a8cd279672a7585497d0af78bd6416e145f036db50f7a655fc9d70645777",
-      "title": "5in FreedomSpec Race Tune 1900-2250KV on 3S (Spec) and 5S/6S (Open)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "533",
-        "FreedomSpec",
-        "Tune",
-        "Spec",
-        "Race",
-        "Llama",
-        "MultiVoltage"
-      ],
-      "author": "Daniel Appel / Tehllama",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Tehllama_5in_2350-2750KV-TexasSpec_3S-4S-5S_Race_TUNE_OTHER.txt",
-      "hash": "5d6ed6b44c881d82559867dac445f89fe0f1e6cca98683740741bd91261d7aa2",
-      "title": "5in TexasSpec Freedom Race Tune 2350-2750KV on 3S (Spec) and 4S/5S (Open)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "533",
-        "HighKV",
-        "FreedomSpec",
-        "Spec",
-        "Tune",
-        "Race",
-        "Llama",
-        "MultiVoltage",
-        "Texas"
-      ],
-      "author": "Daniel Appel / Tehllama",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Tehllama_5in_BMS-Spec_1600-2350KV_4S-5S-6S_Race_TUNE-OTHER.txt",
-      "hash": "26f49dea7894c55dfffffadaac1eadd98ed8ad6ad57ae3177e2667d9f4cec4fe",
-      "title": "5in Tehllama Race Tune 1600-2350KV on 4S/5S/6S including BMS Spec",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "Race",
-        "Llama",
-        "Safe",
-        "Tune",
-        "MultiVoltage"
-      ],
-      "author": "Daniel Appel / Tehllama",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Tehllama_GTB339_3in_SWPR-Spec_2S-3S_Race_TUNE_OTHER.txt",
-      "hash": "48993de1d96b0347b5ff6d8f0b79e9deb88a81ef9341d17c670f62fc56bfc709",
-      "title": "3in Lightweight 3S/2S Tune for GTB-339 or 3\" Racing Toothpick",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "GTB339",
-        "Toothpick",
-        "Spec",
-        "Race",
-        "Llama",
-        "SWPR",
-        "Multi",
-        "Voltage",
-        "2S",
-        "3S"
-      ],
-      "author": "Daniel Appel / Tehllama",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/rates/dad_zouari.txt",
       "hash": "a758a1172a8becb207c168f33784d61b0c080c8ec5786068251e0b1c6bc72bfb",
       "title": "David Zouari Freestyle 5inch rates",
@@ -1098,21 +962,6 @@
         "freestyle"
       ],
       "author": "CultureFPV",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
-      "hash": "46b34a3ddf5526a7f752f5e62971096ccb6c170195affe921f8b7b323fb3293d",
-      "title": "mouseFPV Freestyle Rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "freestyle"
-      ],
-      "author": "mouseFPV",
       "priority": 10000
     },
     {
