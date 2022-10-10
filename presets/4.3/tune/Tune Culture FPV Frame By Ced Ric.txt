@@ -43,7 +43,7 @@
 # BOTH CHECKED AND UNCHECKED OPTIONS CAN BE USED FOR THESE PARAMETERS
 
 # -- Filters --
-#$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
+#$ INCLUDE: presets/4.3/filters/basic_rpm_normal.txt
 
 # -- PID Sliders --
 set simplified_master_multiplier = 140
